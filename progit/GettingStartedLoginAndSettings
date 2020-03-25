@@ -1,0 +1,12 @@
+//LOGIN
+////for all repo in system
+        git config --global user.name "John Doe"
+        git config --global user.email johndoe@example.com
+
+////override with a different name or e-mail address for specific projects
+        git config user.name "John Doe"
+        git config user.email johndoe@example.com
+
+
+//user settings
+git config --list
