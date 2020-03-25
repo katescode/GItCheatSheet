@@ -1,5 +1,8 @@
+User data:
 git config --global user.name "name"
 git config --global user.email "email@example.com"
+Generate ssh key:
 ssh-keygen -t rsa -C "email@example.com"
+Copy from:
 vim ~/.ssh/id_rsa.pub
 
